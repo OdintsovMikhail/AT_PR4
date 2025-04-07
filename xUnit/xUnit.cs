@@ -23,6 +23,7 @@ namespace xUnit
             driver.Quit();
         }
 
+
         [Theory]
         [InlineData("https://en.ehu.lt/", "https://en.ehu.lt/about/", "About", "About")]
         public void VerifyNavigationToAboutPage(string url, string expectedUrl, string linkText, string expectedTitle)
